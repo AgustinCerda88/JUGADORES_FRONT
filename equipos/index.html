@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="equipos.js" defer></script>
+    <link rel="stylesheet" href="./equipos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+    <title>CLUBES</title>
+</head>
+
+<body>
+    <header class="header">
+        <form class="form" action="" method="Login, Register, checkSession">
+            <input type="email" class="input__mail" placeholder="email">
+            <input type="password" class="input__mail" placeholder="contraseña">
+            <button type="submit" class="accede">Acceder ⚽</button>
+        </form>
+        <h1 class="titulo">
+            CLUBES DE FÚTBOL
+        </h1>
+    </header>
+    <main>
+        <div>
+            <ol class="container">
+            </ol>
+        </div>
+        <div class="footer">
+            <h1 class="agrega">Agrega un nuevo CLUB</h1>
+            <form class="input_type" type="submit">
+                <input type="text" id='Nombre' class="input__filter" placeholder="Nombre">
+                <input type="text" id='Liga' class="input__filter" placeholder="Liga">
+                <input type="text" id='Ciudad' class="input__filter" placeholder="Ciudad">
+                <input type="text" id='Logo' class="input__filter" placeholder="Link de Logo">
+                <button id="agregar_club" class="add_club" type="submit">Agregar Club</button>
+            </form>
+            <a class="link" href="../jugadores/index.html"><button class="jugadores">IR A LOS JUGADORES</button></a>
+        </div>
+    </main>
+
+</body>
+
+</html>

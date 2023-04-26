@@ -1,0 +1,211 @@
+body {
+    background-image: url("https://res.cloudinary.com/ds2uzeugv/image/upload/v1679768458/Jugadores/estadio_mjbhkb.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    margin-top: 0px;
+}
+
+.form{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 40%;
+    font-family: 'Amatic SC';
+    display: flex;
+    height: 30px;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    color: black;
+}
+
+.input__mail{
+    height: 15px;
+    width: 25%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+.accede{
+    width: 100px;
+    font-family: 'Amatic SC';
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+    height: 25px;
+    padding-top:0px;
+    
+}
+
+.container{
+    margin-left:0px;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:black;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.listado{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
+
+.div_equipo{
+    min-width: 150px;
+    width: 18%;
+    height: 70vh;
+    content: contain;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: rgba(36, 36, 36, 0.489);
+}
+    
+
+.logo {
+    height: 150px;
+}
+
+.info{
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.div_equipo:hover{
+    transform: scale(1.1);
+    background-color: rgba(36, 36, 36, 0.924);
+}
+
+.club{
+    font-size:25px;
+}
+
+.liga{
+    font-size: 18px;
+}
+
+.ciudad{
+    font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.input_type{
+    width: 90%;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agrega{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+
+}
+
+.add_club{
+    width: 150px;
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.input__filter{
+    height: 15px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color:white;
+
+}
+.input__filter::placeholder {
+    color: white;
+}
+
+.jugadores{    
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+.filtro {
+    display: none;
+  }

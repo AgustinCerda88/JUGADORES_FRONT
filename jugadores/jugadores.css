@@ -1,0 +1,249 @@
+body {
+    background-image: url("https://res.cloudinary.com/ds2uzeugv/image/upload/v1679768458/Jugadores/estadio_mjbhkb.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    margin:0px;
+    padding: 0px;
+}
+
+.header{
+    margin-top: 0px;
+}
+
+.form{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 40%;
+    font-family: 'Amatic SC';
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    color: black;
+}
+
+.input__mail{
+    height: 15px;
+    width: 25%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+    
+.accede{
+    width: 100px;
+    font-family: 'Amatic SC';
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+    height: 25px;
+    padding-top:0px;
+    
+}
+
+.jugadores_futbol{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:black;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.container{
+    margin:0px;
+}
+
+.listado{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
+.div_jugador{
+    min-width: 150px;
+    width: 18%;
+    height: 70vh;
+    content: contain;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: rgba(36, 36, 36, 0.489);
+}
+
+.recuadro {
+    width: 90%;
+    overflow: hidden;
+}
+
+
+.logo{
+    width: 100%; 
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(to bottom, transparent, #ffffffa2);
+    mask-image: linear-gradient(to bottom, transparent, #ffffff99);
+  }
+
+.info{
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+}
+
+.div_jugador:hover{
+    transform: scale(1.1);
+    background-color: rgba(36, 36, 36, 0.924);
+}
+
+
+.edad{
+    font-size: 15px;
+}
+.posicion{
+    font-size: 15px;
+}
+.pierna{
+    font-size: 15px;
+}
+
+.botonmas{
+    width: 120px;
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.botonmenos{
+    width: 120px;
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.agrega{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+.input_type{
+    width: 90%;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}    
+
+.input__filter{
+    height: 15px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color:white;
+
+}
+
+.add_player{
+    width: 150px;
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.input__filter::placeholder {
+    color: white;
+}
+
+
+.clubes{    
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+.filtro {
+    display: none;
+  }
