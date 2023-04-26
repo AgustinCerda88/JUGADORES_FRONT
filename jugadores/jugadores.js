@@ -87,7 +87,7 @@ form$$.addEventListener('submit', async (event) => {
 
 
   try {
-    const response = await fetch('http://localhost:7500/jugadores', {
+    const response = await fetch('https://jugadores-back.vercel.app/jugadores', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
