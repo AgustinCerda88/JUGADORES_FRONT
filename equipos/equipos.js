@@ -1,6 +1,6 @@
 
 const getEquipos = async (page) => {
-    const response = await fetch(`http://localhost:7500/equipos`);  
+    const response = await fetch(`https://jugadores-back.vercel.app/equipos`);  
     const responseJson = await response.json(); 
     await pintarDatos(responseJson);
 }

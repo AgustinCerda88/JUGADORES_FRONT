@@ -1,6 +1,6 @@
 
 const getJugadores = async (page) => {
-    const response = await fetch(`http://localhost:7500/jugadores?page=${page}&limit=10`);  
+    const response = await fetch(`https://jugadores-back.vercel.app/jugadores?page=${page}&limit=10`);  
     const responseJson = await response.json(); 
     await pintarDatos(responseJson);
 }
