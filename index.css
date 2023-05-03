@@ -1,0 +1,125 @@
+body {
+    background-image: url("https://res.cloudinary.com/ds2uzeugv/image/upload/v1679768458/Jugadores/estadio_mjbhkb.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    max-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+    height: 50px;
+}
+
+.atras {
+    font-family: 'Amatic SC';
+}
+
+.form {
+    width: 40%;
+    font-family: 'Amatic SC';
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.input__mail {
+    height: 15px;
+    width: 25%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.accede {
+    width: 100px;
+    font-family: 'Amatic SC';
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+    height: 25px;
+    padding-top: 0px;
+    cursor: pointer
+}
+
+main {
+    height: 80vh;
+}
+
+.jugadores_futbol {
+    margin-top: 60px;
+    color: black;
+    font-family: 'Amatic SC';
+    font-size: 60px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.jugadores_futbol span {
+    display: inline-block;
+    width: 200%;
+    animation: jugadores_futbol 10s linear infinite;
+}
+
+@keyframes jugadores_futbol {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.container {
+    margin: 0px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.clubes {
+    text-align: center;
+    width: 300px;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    background-color: white;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}

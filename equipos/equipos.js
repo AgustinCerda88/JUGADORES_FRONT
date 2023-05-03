@@ -27,15 +27,15 @@ const pintarDatos = async (allEquipos) => {
         logo$$.className = 'logo';
         logo$$.setAttribute('src', equipos.foto);
 
-        let club$$ = document.createElement('p');
+        let club$$ = document.createElement('div');
         club$$.textContent = equipos.nombre;
         club$$.className = "club";
        
-        let ciudad$$ = document.createElement('p');
+        let ciudad$$ = document.createElement('div');
         ciudad$$.textContent = equipos.ciudad;
         ciudad$$.className = "ciudad";
         
-        let liga$$ = document.createElement('p');
+        let liga$$ = document.createElement('div');
         liga$$.textContent = equipos.liga;
         liga$$.className = "liga";
 

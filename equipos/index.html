@@ -15,23 +15,27 @@
 </head>
 
 <body>
-    <header class="header">
-        <form class="form" action="" method="Login, Register, checkSession">
-            <input type="email" class="input__mail" placeholder="email">
-            <input type="password" class="input__mail" placeholder="contraseña">
-            <button type="submit" class="accede">Acceder ⚽</button>
-        </form>
-        <h1 class="titulo">
-            CLUBES DE FÚTBOL
-        </h1>
+    <header>
+        <div class="header">
+            <div class="atras"><a href="../index.html"> &#8962; HOME</a></div>
+            <form class="form" action="" method="Login, Register, checkSession">
+                <input type="email" class="input__mail" placeholder="email">
+                <input type="password" class="input__mail" placeholder="contraseña">
+                <button type="submit" class="accede">Acceder ⚽</button>
+            </form>
+        </div>
     </header>
     <main>
-        <div>
-            <ol class="container">
-            </ol>
+        <div class="main">
+            <h1 class="titulo">CLUBES DE FÚTBOL
+            </h1>
+            <div class="container">
+            </div>
         </div>
+    </main>
+    <footer>
         <div class="footer">
-            <h1 class="agrega">Agrega un nuevo CLUB</h1>
+            <div class="agrega">Agrega un nuevo CLUB</div>
             <form class="input_type" type="submit">
                 <input type="text" id='Nombre' class="input__filter" placeholder="Nombre">
                 <input type="text" id='Liga' class="input__filter" placeholder="Liga">
@@ -41,8 +45,7 @@
             </form>
             <a class="link" href="../jugadores/index.html"><button class="jugadores">IR A LOS JUGADORES</button></a>
         </div>
-    </main>
-
+    </footer>
 </body>
 
 </html>

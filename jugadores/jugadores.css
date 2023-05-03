@@ -2,25 +2,54 @@ body {
     background-image: url("https://res.cloudinary.com/ds2uzeugv/image/upload/v1679768458/Jugadores/estadio_mjbhkb.jpg");
     background-size: cover;
     background-attachment: fixed;
-    width:100%;
+    width:100vw;
     margin:0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+
 }
 
 .header{
-    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    height: 50px;
+}
+
+.atras{
+    font-family: 'Amatic SC';
+    cursor: pointer
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 25px;
+    cursor: pointer
 }
 
 .form{
-    position: absolute;
-    top: 20px;
-    right: 0;
     width: 40%;
     font-family: 'Amatic SC';
     display: flex;
-    height: 100px;
     justify-content: space-evenly;
-    margin-top: 0px;
     color: black;
 }
 
@@ -48,13 +77,23 @@ body {
     border-radius: 50px;
     height: 25px;
     padding-top:0px;
-    
+    cursor: pointer
+}
+
+main{
+    width: 100%;
+}
+
+.main{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .jugadores_futbol{
-    display: flex;
-    margin-top: 60px;
-    justify-content: center;
+    text-align: center;
+    width: 100%;
     flex-wrap: wrap;
     color:black;
     font-family: 'Amatic SC';
@@ -67,27 +106,29 @@ body {
 
 .container{
     margin:0px;
+    width: 90%;
+    align-self: center;
 }
 
 .listado{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-evenly;
     margin-top: 50px;
+
 }
 
-
 .div_jugador{
-    min-width: 150px;
-    width: 18%;
-    height: 70vh;
+    min-width: 120px;
+    width: 17%;
+    height: 50vh;
     content: contain;
     display: flex;
     flex-direction: column;
     border-style: solid;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Amatic SC';
     font-size: 25px;
@@ -95,31 +136,12 @@ body {
     border-radius: 50px;
     margin: 5px;
     background-color: rgba(36, 36, 36, 0.489);
+    cursor: pointer;
 }
-
-.recuadro {
-    width: 90%;
-    overflow: hidden;
-}
-
 
 .logo{
-    width: 100%; 
-    height: auto;
-    display: block;
-    position: relative;
+    height: 180px;
 }
-
-.logo::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 20%;
-    background-image: linear-gradient(to bottom, transparent, #ffffffa2);
-    mask-image: linear-gradient(to bottom, transparent, #ffffff99);
-  }
 
 .info{
     font-family: 'Amatic SC';
@@ -146,6 +168,12 @@ body {
     font-size: 15px;
 }
 
+.botones{
+    position: relative;
+    bottom: 0px;
+    align-self: center;
+}
+
 .botonmas{
     width: 120px;
     font-family: 'Amatic SC';
@@ -154,6 +182,7 @@ body {
     box-shadow: none;
     border-style: none;
     border-radius: 50px;
+    cursor: pointer
 }
 
 .botonmenos{
@@ -164,6 +193,12 @@ body {
     box-shadow: none;
     border-style: none;
     border-radius: 50px;
+    cursor: pointer
+}
+
+footer{
+    width: 100vw;
+    height: 40vh;
 }
 
 .footer{
@@ -172,16 +207,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    width: 100%;
+    margin-top: 40px;
+    
 }
 
 .agrega{
-    margin-top:50px;
-    display:flex;
-    justify-content: center;
+    align-self: center;
     color: white;
     font-family: 'Amatic SC';
-    font-size: 50px;
+    font-size: 30px;
     border-top-style: solid;
     border-bottom-style: solid;
     border-right-style: none;
@@ -196,6 +231,7 @@ body {
     height: 100px;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }    
 
 .input__filter{
@@ -220,6 +256,7 @@ body {
     box-shadow: none;
     border-style: none;
     border-radius: 50px;
+    cursor: pointer
 }
 
 .input__filter::placeholder {
@@ -230,18 +267,16 @@ body {
 .clubes{    
     display: flex;
     justify-content: center;
-    width: 300px;
+    max-width: 300px;
+    min-width: 200px;
     font-family: 'Amatic SC';
     font-size: 25px;
     background-color: white;
     box-shadow: none;
     border-style: none;
     border-radius: 50px;
+    cursor: pointer
 
-}
-
-.link{
-    text-decoration: none;
 }
 
 .filtro {

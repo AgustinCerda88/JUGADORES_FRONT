@@ -5,22 +5,41 @@ body {
     width:100%;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    overflow-x: hidden;
 }
 
 .header{
-    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 30px auto;
+    height: 50px;
+}
+
+.atras{
+    font-family: 'Amatic SC';
+    cursor: pointer
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 25px;
+    cursor: pointer
 }
 
 .form{
-    position: absolute;
-    top: 20px;
-    right: 0;
     width: 40%;
     font-family: 'Amatic SC';
     display: flex;
-    height: 30px;
     justify-content: space-evenly;
-    margin-top: 0px;
     color: black;
 }
 
@@ -48,17 +67,24 @@ body {
     border-radius: 50px;
     height: 25px;
     padding-top:0px;
+    cursor: pointer
     
 }
 
-.container{
-    margin-left:0px;
+main{
+    width: 100%;
+}
+
+.main{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .titulo{
-    display: flex;
+    text-align: center;
     margin-top: 60px;
-    justify-content: center;
     flex-wrap: wrap;
     color:black;
     font-family: 'Amatic SC';
@@ -67,6 +93,12 @@ body {
     border-bottom-style: solid;
     border-right-style: none;
     border-left-style: none;
+}
+
+.container{
+    margin-left:0px;
+    width: 90%;
+    align-self: center;
 }
 
 .listado{
@@ -81,9 +113,9 @@ body {
 
 
 .div_equipo{
-    min-width: 150px;
-    width: 18%;
-    height: 70vh;
+    min-width: 120px;
+    width: 17%;
+    height: 50vh;
     content: contain;
     display: flex;
     flex-direction: column;
@@ -96,9 +128,9 @@ body {
     border-radius: 50px;
     margin: 5px;
     background-color: rgba(36, 36, 36, 0.489);
+    cursor: pointer
 }
     
-
 .logo {
     height: 150px;
 }
@@ -146,6 +178,7 @@ body {
     height: 100px;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .agrega{
@@ -170,6 +203,7 @@ body {
     box-shadow: none;
     border-style: none;
     border-radius: 50px;
+    cursor: pointer
 }
 
 .input__filter{
@@ -199,6 +233,7 @@ body {
     box-shadow: none;
     border-style: none;
     border-radius: 50px;
+    cursor: pointer
 
 }
 
